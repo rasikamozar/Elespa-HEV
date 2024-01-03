@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-12 {
+    flex-basis: 100%;
+  }
+  
+  .col-md-4 {
+    flex-basis: 33.33%;
+  }
+  
+  h3 {
+    color: #ffc107;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #ffc107;
+    color: #343a40;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
