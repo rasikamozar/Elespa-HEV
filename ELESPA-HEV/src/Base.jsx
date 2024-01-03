@@ -2,8 +2,10 @@ import './Base.css'
 
 export default function Base(){
     return(
-          <div>
-            <h1>Base Page </h1>
+          <div >
+              <div className="Box">
+                      <h1 className='Heading'>Electrifying India </h1>
+              </div>
           </div>
     );
 }
