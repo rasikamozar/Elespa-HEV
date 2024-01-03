@@ -1,12 +1,9 @@
 import './App.css'
-
-import Navbar from './Navbar.jsx'
-import Footer from './Footer.jsx'
+import Home from './Home.jsx'
 function App() {
   return (
     <>
-    <Navbar/>
-    <Footer/>
+     <Home/>
     </>
   )
 }
