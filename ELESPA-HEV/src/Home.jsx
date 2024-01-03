@@ -6,9 +6,9 @@ import Footer from './Footer.jsx';
 export default function Home(){
     return(
         <>
-            <Navbar/>
-            <Base/>
-            <Footer/>
+         <Navbar/>
+          <Base/>
+          <Footer/>
         </>
     );
 }

@@ -12,7 +12,11 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.21.1"
+=======
+    "react-player": "^2.14.1"
+>>>>>>> aa79469c8a78234cb4e82a82d5bf51f6e57ff0c0
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
