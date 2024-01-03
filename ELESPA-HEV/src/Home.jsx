@@ -1,9 +1,14 @@
-import Login from './Login.jsx'
+import Navbar from './Navbar.jsx'
+import Base from './Base.jsx';
+import Footer from './Footer.jsx';
+
 
 export default function Home(){
     return(
-        <div>
-            <Login/>
-        </div>
-    )
+        <>
+            <Navbar/>
+            <Base/>
+            <Footer/>
+        </>
+    );
 }
