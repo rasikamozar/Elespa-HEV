@@ -1,0 +1,42 @@
+.about{
+    margin-top: 3rem;
+    
+}
+
+.first{
+    background-color: #f1eeee;
+    display: flex;
+    flex: 1;
+    height: 30rem;
+    margin-bottom: 3rem;
+}
+.content{
+    margin-left: 2rem;
+}
+.slogan{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.picture{
+    margin: 3rem 1rem 0rem 10rem;
+}
+.Info{
+    margin-left: 5rem;
+    font-size: larger;
+    line-height: 3rem;
+    font-weight: 600;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.second i{
+    margin-right: 1rem;
+}
+.vision{
+    margin-right: 5rem;
+    border-right: 2px solid gray;
+}
+
