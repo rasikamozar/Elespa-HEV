@@ -30,7 +30,7 @@
 .second{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    margin-bottom: 4rem;
 }
 .second i{
     margin-right: 1rem;
@@ -39,4 +39,11 @@
     margin-right: 5rem;
     border-right: 2px solid gray;
 }
+.vision p{
+    margin-right: 5rem;
+}
+.third{
+    margin: 0rem 10rem 3rem 10rem;
+}
+
 

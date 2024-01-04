@@ -1,6 +1,8 @@
 import './About.css'
 import Image from './Database/logo.png'
-
+import a10 from './Database/images/a10.jpg'
+import a9 from './Database/images/a9.jpg'
+import a8 from './Database/images/a8.jpg'
 export default function About(){
     return(
         <div className='about'>
@@ -15,14 +17,34 @@ export default function About(){
                    <div className='picture'><img src={Image} height={400} width={400}></img></div>
               </div>
               <div className='second'>
-                      <div className='vision'><h2><b><i class="fa-solid fa-eye-low-vision"></i>Vision</b></h2><br></br>
+                      <div className='vision'><h2><b><i className="fa-solid fa-eye-low-vision"></i>Vision</b></h2><br></br>
                       <p>Our Vision is to Electrify India...</p>
                       </div>
-                      <div className='Mission'><h2><b><i class="fa-solid fa-bullseye"></i>Mission</b></h2><br></br>
+                      <div className='Mission'><h2><b><i className="fa-solid fa-bullseye"></i>Mission</b></h2><br></br>
                       <p>Our Mission is to Electrify India...</p>
                       </div>
               </div>
-
-        </div>
+              <div className='third'>
+                    <h2>Best Start-up</h2>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src={a10} class="card-img-top" alt="image"></img>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={a9} class="card-img-top" alt="image"></img>
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={a8} class="card-img-top" alt="image"></img>
+    </div>
+          </div>
+      </div>
+     </div>
+   </div>
     );
 }
