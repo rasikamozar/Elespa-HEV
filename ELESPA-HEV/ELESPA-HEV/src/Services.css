@@ -1,45 +1,54 @@
 /* Add this CSS to your stylesheets or use a CSS-in-JS solution in your React component */
 
 body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .cards-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
+  background-color: #6c757d;
+  margin: 20px;
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  color: #6c757d;
+  flex-direction: column;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Set width to 100% to occupy full width */
+  height: 330px;
+}
+
+.card-body {
+  margin: 20px;
+  padding: 20px;
+  flex: 1;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.text-body-secondary {
+  color: #6c757d;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 576px) {
   .card {
-    border: 1px solid #dee2e6;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Set width to 100% to occupy full width */
-    height: 300px;
+    max-width: 100%;
   }
-  
-  .card-body {
-    flex: 1;
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .card-text {
-    margin-bottom: 0.5rem;
-  }
-  
-  .text-body-secondary {
-    color: #6c757d;
-  }
-  
-  /* Responsive styling for smaller screens */
-  @media (max-width: 576px) {
-    .card {
-      max-width: 100%;
-    }
-  }
-  
+}
