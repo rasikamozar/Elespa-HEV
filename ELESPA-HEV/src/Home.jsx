@@ -4,12 +4,14 @@ import About from './About.jsx';
 import Footer from './Footer.jsx';
 
 
+
 export default function Home(){
     return(
         <>
           <Navbar/>
          <Base/>
          <About/>
+         
          <Footer/>
         </>
     );
