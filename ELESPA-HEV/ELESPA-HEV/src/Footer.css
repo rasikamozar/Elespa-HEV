@@ -1,0 +1,77 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1c2331;
+  color: white;
+  padding: 15px 0; /* Reduced padding top and bottom */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.social-media,
+.footer-links,
+.footer-section {
+  flex-basis: 100%;
+  margin-bottom: 10px; /* Reduced margin bottom */
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex-basis: 48%; /* Adjust this value based on your design */
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffc107;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  margin: 5px 0; /* Reduced margin top and bottom */
+  font-size: 0.9rem;
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+
+.footer-section i {
+  margin-right: 5px; /* Reduced margin right */
+}
+
+.copyright {
+  text-align: center;
+  padding: 5px 0; /* Reduced padding top and bottom */
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .social-media,
+  .footer-links,
+  .footer-section {
+    flex-basis: 30%;
+  }
+
+  .footer-section {
+    flex-basis: 48%; /* Adjust this value based on your design */
+  }
+}
+
