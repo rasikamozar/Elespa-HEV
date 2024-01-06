@@ -4,8 +4,9 @@ import S1 from './Database/elespa_images/bg_2.jpg';
 import S2 from './Database/images/ph1.jpeg';
 import S3 from './Database/images/ph3.jpeg';
 import S4 from './Database/images/ph2.jpeg';
+import Features from './Features.jsx';
 
-const CardComponent = () => {
+const Services = () => {
   return (
     <div className="cards-container">
       {[1].map((index) => (
@@ -108,8 +109,9 @@ Our Hybrid Electric System Space between Electric and System
           </div>
         </div>
       ))}
+      <Features/>
     </div>
   );
 };
 
-export default CardComponent;
+export default Services;

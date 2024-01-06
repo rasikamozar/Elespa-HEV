@@ -57,7 +57,7 @@ export default function About(){
     <div class="col-md-4">
       <div class="card-body">
         <h5 class="card-title">Prathamesh Choudhary</h5>
-        <p class="card-text"><small class="text-body-secondary">Founder & CEO ELESPA HEV Pvt. Ltd.</small></p>
+        <p class="card-text post"><small class="text-body-secondary">Founder & CEO ELESPA HEV Pvt. Ltd.</small></p>
         <p class="card-text">Our vision is to "Electrifying India" by converting existing vehicles into Hybrid Electric Vehicles. So that we can reduce the pollution and consumption of the Fossil fuels.</p>
       </div>
     </div>
@@ -66,7 +66,7 @@ export default function About(){
     <div class="col-md-4">
       <div class="card-body">
         <h5 class="card-title">Rohit Shidid</h5>
-        <p class="card-text"><small class="text-body-secondary">COO ELESPA HEV Pvt. Ltd.</small></p>
+        <p class="card-text post"><small class="text-body-secondary">COO ELESPA HEV Pvt. Ltd.</small></p>
         <p class="card-text">We here at ElESPA HEV believe in Green and Clean energy, thus making a better and cleaner environment not only for us but also for the future generations in a way that is sustainable.</p>
         
       </div>
@@ -82,7 +82,7 @@ export default function About(){
     <div class="col-md-4">
       <div class="card-body">
         <h5 class="card-title">Krushal Mahajan</h5>
-        <p class="card-text"><small class="text-body-secondary">CTO ELESPA HEV Pvt. Ltd.</small></p>
+        <p class="card-text post"><small class="text-body-secondary">CTO ELESPA HEV Pvt. Ltd.</small></p>
         <p class="card-text">Our vision is to create a sustainable ecosystem for existing vehicles by converting them to hybrid electric vehicles. Such that we can achieve our ultimate goal  of being carbon-neutral</p>
       </div>
     </div>

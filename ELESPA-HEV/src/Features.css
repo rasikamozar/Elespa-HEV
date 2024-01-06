@@ -1,0 +1,30 @@
+.card {
+    width: 16rem;
+    height: 100px;
+    background-color: rgb(249, 231, 253);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+
+.card img {
+    
+    width: 30%;
+    height: auto;
+    align-self: center;
+    border-radius: 50%; /* Make the image round */
+}
+
+.card-body {
+    background-color:rgb(249, 231, 253);
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 188, 245, 0.5);
+}
